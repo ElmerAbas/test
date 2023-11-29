@@ -1,0 +1,86 @@
+body::-webkit-scrollbar
+{
+    display: none;
+}
+
+body
+{
+    background-color: #C2D9FF;
+}
+
+.myNav .Nav-Menu .brand-Name
+{
+    font-family: 'Times New Roman', Times, serif;
+    filter: drop-shadow(3px 2px 3px black)
+}
+
+.myNav .Nav-Menu .Menu li
+{
+    padding-left: 10px;
+}
+
+.myNav .Nav-Menu .Menu li a 
+{
+    font-family: sans-serif;
+    display: inline-block;
+    /* Set up the hover */
+    /* If you aren't using autoprefix, remember to prefix the gradient for other browsers */
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    background-size: 0 3px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+    filter: drop-shadow(3px 2px 2px rgb(0, 0, 0))
+}
+
+.myNav .Nav-Menu .Menu li a:hover
+{
+    background-size: 100% 3px, auto;
+}
+
+
+.my-About .About p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+
+
+/*====== SIGN IN ======*/
+
+.con-sign::before
+{
+    content:"";
+    background-image: url('./image/tim-mossholder-07uiqD9LS6U-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity:0.7;
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-3;
+}
+
+.con-sign .sign-card
+{
+    filter: drop-shadow(5px 8px 5px black)
+}
+
+/*====== GALLERY ======*/
+.gallery .img-gal img:hover
+{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .7s ease;
+}

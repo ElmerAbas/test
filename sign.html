@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="./image/02.png" />
+
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sign In</title>
+</head>
+
+<body>
+
+    <div class="myNav" style="background-color: #8E8FFA;">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid Nav-Menu">
+              <a class="navbar-brand fs-3 fw-bold text-light brand-Name" href="index.html">Aira Lyn</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mx-5" id="navbarNav">
+                <ul class="navbar-nav Menu">
+                  <li class="nav-item">
+                    <a class="nav-link fs-5 fw-semibold text-light" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5 fw-semibold text-light" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5 fw-semibold text-light" href="about.html">About Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class="container-fluid con-sign">
+        <div class="row justify-content-center">
+                <div class="col-4 mt-5 p-3">
+                  <div class="card p-3 sign-card" style="background-color: #6c9acfe3;">
+                    <form>
+                        <div class="mb-3 p-2  rounded-4 text-center text-light" style="background-color: #654E92;">
+                           <h4 class="m-0">Sign In</h4>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label text-light fw-semibold">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label text-light fw-semibold">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                          <a href="#" class="text-decoration-none fw-semibold text-danger">Forgot Password</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign In</button>
+                    </form>
+                  </div>
+                </div>
+        </div>
+    </div>
+
+    <script src="./assets/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
